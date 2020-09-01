@@ -1,0 +1,192 @@
+body {
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 40px;
+    background-color: #f8f8f8;
+}
+h1,
+h3 {
+    text-align: center;
+}
+.footer {
+    position : fixed;
+    height : 20px;
+    width: 1000px;
+    bottom : 0;
+    background-color: darkgray;
+    padding: 5px 10px
+}
+.header ul{
+    position: relative;
+    margin: 0 auto;
+    width: 280px;
+    height: 35px;
+    padding: 0;
+}
+.header ul li {
+    float: left;
+    margin: 10px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+.name img {
+    height: 77px;
+    float: left;
+    margin-left: 277px;
+}
+.name h1,
+.name h3 {
+    width: 200px;
+    margin: 15px auto;
+}
+.menu a:hover {
+    color: red;
+}
+.main_page_img {
+    width: 1000px;
+}
+.preview_img {
+    height: 200px;
+}
+.product .preview_img {
+    float: left;
+    margin: 0 50px 20px 0;
+    outline: 2px solid #000;
+}
+.product .preview_img:hover {
+    outline: none;
+}
+.product h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.product .short-descr + p {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.product .full-descr + p {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.product > ul li {
+    color: darkblue;
+    list-style-image: url(../images/checked.png);
+}
+.product p::first-letter{
+    font-family:monospace;
+    font-size: 36px;
+}
+
+.details {
+    width: 100%;
+    display: inline-block;
+}
+
+.catalog .content ul {
+    float: left;
+    margin: 10px;
+    padding: 0;
+}
+.header ul li,
+.catalog ul li {
+    list-style-type: none;
+    text-align: center;
+}
+.contacts {
+    width: 1000px;
+}
+.contacts input.text {
+    float: right;
+    width: 200px;
+    height: 20px;
+    color: brown;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.contacts .content {
+    width: 800px;
+    margin: 0 auto;
+}
+.contacts form {
+    display: block;
+    float: left;
+    width: 300px;
+}
+
+.contacts form div {
+    width: 300px;
+    float: left;
+    margin: 5px auto;
+}
+.contacts .map {
+    display: block;
+    float: right;
+}
+
+.contacts input.email:focus {
+    background-color: antiquewhite;
+    color: blue;
+}
+.t_main_page,
+.t_characters {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.t_main_page td,
+.t_characters td {
+    border: 1px solid black;
+    padding: 5px;
+}
+.t_main_page td {
+    text-align: center;
+}
+.t_main_page tr:first-child td {
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

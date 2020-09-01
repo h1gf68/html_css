@@ -11,14 +11,19 @@ h3 {
 .footer {
     position : fixed;
     height : 20px;
-    width: 1000px;
+    width: 990px;
     bottom : 0;
     background-color: darkgray;
-    padding: 5px 10px
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.header {
+    height: 100px;
+    background: url(../images/back.jpg) no-repeat center bottom;
 }
 .header ul{
-    position: relative;
-    margin: 0 auto;
+    float: right;
     width: 280px;
     height: 35px;
     padding: 0;
@@ -32,10 +37,15 @@ h3 {
     color: blue;
     font-size: 20px;
 }
+.name.slogan {
+    float: left;
+    width: 500px;
+}
 .name img {
     height: 77px;
     float: left;
-    margin-left: 277px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 .name h1,
 .name h3 {
@@ -45,21 +55,40 @@ h3 {
 .menu a:hover {
     color: red;
 }
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
 .main_page_img {
     width: 1000px;
+}
+div.purchase {
+    float: left;
+    height: 240px;
+    margin-right: 50px;
+}
+input.purchase {
+    display: block;
+    margin: 0 auto;
+}
+input.purchase:hover {
+    background-color: red;
+}
+input.purchase:active{
+    background-color: darkred;
+    color: aliceblue;
 }
 .preview_img {
     height: 200px;
 }
 .product .preview_img {
-    float: left;
-    margin: 0 50px 20px 0;
     outline: 2px solid #000;
+    margin-bottom: 10px;
 }
 .product .preview_img:hover {
     outline: none;
 }
-.product h3 {
+.product .content h3 {
     color: black;
     font-size: 18px;
     font-weight: 400;
@@ -71,6 +100,7 @@ h3 {
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
+    overflow: hidden;
 }
 .product .full-descr + p {
     color: #484343;
@@ -115,12 +145,12 @@ h3 {
     text-transform: capitalize;
 }
 .contacts .content {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
 }
 .contacts form {
     display: block;
-    float: left;
+    margin: 0 auto;
     width: 300px;
 }
 
@@ -131,7 +161,7 @@ h3 {
 }
 .contacts .map {
     display: block;
-    float: right;
+    float: left;
 }
 
 .contacts input.email:focus {
